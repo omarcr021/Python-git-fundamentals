@@ -9,3 +9,4 @@
 7.- git commit --amend -> permite arreglar el ultimo commit
 8.- git branch-> para ver cuantas ramas de versiones hay en el repositorio, ademas si agregas el nombre de una rama puedes trasladarte hacia ahi.
 9.- git checkout -b nombre -> un comando mas rapido, creas un branch y ademas te trasladas con un solo comando.
+10.-git merge "nombre de la rama" -> permite fusionar la rama master con el nombre de la rama que agregamos.
