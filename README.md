@@ -6,4 +6,6 @@
 5.- git checkout --. ->en caso se haya eliminado o borrado los archivos, el comando hace que todos los archivos que se encuentren en el repositorio van a ser restaurados a como se encontraban en el ultimo commit.
 6.- git log -> sirve para ver todo el listado los commits en el cual se podra ver:el autor, la fecha y el codigo id que identifica al commit.
     tambien hay variciones como git log --oneline  que solo muestra un listado resumido con lo mas importante.
-7.-git commit --amend -> permite arreglar el ultimo commit
+7.- git commit --amend -> permite arreglar el ultimo commit
+8.- git branch-> para ver cuantas ramas de versiones hay en el repositorio
+9.- git checkout -b ramanew
