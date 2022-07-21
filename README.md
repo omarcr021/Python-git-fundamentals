@@ -7,6 +7,8 @@
 6.- git log -> sirve para ver todo el listado los commits en el cual se podra ver:el autor, la fecha y el codigo id que identifica al commit.
     tambien hay variciones como git log --oneline  que solo muestra un listado resumido con lo mas importante.
 7.- git commit --amend -> permite arreglar el ultimo commit
-8.- git branch-> para ver cuantas ramas de versiones hay en el repositorio, ademas si agregas el nombre de una rama puedes trasladarte hacia ahi.
-9.- git checkout -b nombre -> un comando mas rapido, creas un branch y ademas te trasladas con un solo comando.
-10.-git merge "nombre de la rama" -> permite fusionar la rama master con el nombre de la rama que agregamos.
+8.- git branch-> para ver cuantas ramas de versiones hay en el repositorio, si agregas un nombre, creas una rama nueva
+9.- git checkout -> sirve para trasladarse entre ramas
+10.- git checkout -b "nombre" -> la combinacion de branch y checkout en un solo codigo.
+11.- git checkout master -> permite volver a la rama master
+12.- git merge "nombre de la rama (NO ESCRIBIR LA RAMA MASTER)" -> permite fusionar la rama alternativa con la rama master.
