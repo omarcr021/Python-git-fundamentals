@@ -17,3 +17,4 @@
 15. git push -u origin master -> para subir los archivos al repositorio (vease github), si el repositorio ya existe, entonces solo es git push.
 16. git commit -am " " -> si ya los archivos estan subidos en github, entonces estan siendo seguidos, solo en ese caso este comando fusiona el git add y el git commit en un solo comando.
 17. git status -> te da una vista general de todos los archivos de la rama, ver si estan en staged o no, incluso brinda sugerencias de comandos de restauracion o pasarlo a commit. Muy importante
+18. git remote -v -> Muestra la URL del repositorio que se ha creado en GitHub (origin).
