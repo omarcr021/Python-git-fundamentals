@@ -13,4 +13,5 @@
 11. git checkout master -> permite volver a la rama master
 12. git merge "nombre de la rama (NO ESCRIBIR LA RAMA MASTER)" -> permite fusionar la rama alternativa con la rama master.
 13. git branch -d "nombre de la rama" -> permite cualquier rama.
-14. git push -> para subir los archivos al repositorio (vease github).
+14. git remote add origin "URL" -> sirve para agregar tu url y poder subir tur archivos desde el origen (Master) hacia el repositorio (github)
+15. git push -u origin master -> para subir los archivos al repositorio (vease github), si el repositorio ya existe, entonces solo es git push.
