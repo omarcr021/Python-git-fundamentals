@@ -15,3 +15,4 @@
 13. git branch -d "nombre de la rama" -> permite cualquier rama.
 14. git remote add origin "URL" -> sirve para agregar tu url y poder subir tur archivos desde el origen (Master) hacia el repositorio (github)
 15. git push -u origin master -> para subir los archivos al repositorio (vease github), si el repositorio ya existe, entonces solo es git push.
+16. git commit -am " " -> si ya los archivos estan subidos en github, entonces estan siendo seguidos, solo en ese caso este comando fusiona el git add y el git commit en un solo comando.
