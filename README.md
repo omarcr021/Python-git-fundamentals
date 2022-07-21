@@ -12,3 +12,4 @@
 10.- git checkout -b "nombre" -> la combinacion de branch y checkout en un solo codigo.
 11.- git checkout master -> permite volver a la rama master
 12.- git merge "nombre de la rama (NO ESCRIBIR LA RAMA MASTER)" -> permite fusionar la rama alternativa con la rama master.
+13.- git branch -d "nombre de la rama" -> permite cualquier rama.
