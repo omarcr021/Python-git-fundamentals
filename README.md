@@ -7,5 +7,7 @@
 6.- git log -> sirve para ver todo el listado los commits en el cual se podra ver:el autor, la fecha y el codigo id que identifica al commit.
     tambien hay variciones como git log --oneline  que solo muestra un listado resumido con lo mas importante.
 7.- git commit --amend -> permite arreglar el ultimo commit
-8.- git branch-> para ver cuantas ramas de versiones hay en el repositorio
-9.- git checkout -b ramanew
+8.- git branch-> para ver cuantas ramas de versiones hay en el repositorio, si agregas un nombre, creas una rama nueva
+9.- git checkout -> sirve para trasladarse entre ramas
+10.- git checkout -b "nombre" -> la combinacion de branch y checkout en un solo codigo.
+11.- git checkout master
