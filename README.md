@@ -1,8 +1,13 @@
 # comandos utiles de git
 IMPORTANTE: Abrir el vs con el codigo "Code ."
+IMPORTANTE 2: Crear un repositorio con el siguiente nombre: username.github.io Hace que todas las personas puedan ver tu pagina web de forma sencilla.
 1. git init -> iniciar el proyecto en un repositorio (lo primero que uno debe hacer)
 2. git add -> tomar todos los archivos que tengan desde el ultimo commit o del git init y prepararlos para una fotografia o commit para ser mas tecnicos (se puede utilizar git add . para agregar todos los archivos o simplemente git add "nombre" para tomar solo un archivo)
 3. git reset -> revierte todo lo que hace el git add (controlado tambien por un . o el nombre del archivo)
+    Ejemplo:
+    git reset --hard "<commit>" -> revierte todo lo que cambiaste a un commit que indiques (previamente usando git  log para ver la lista de commits)
+    git reset origin/master ->revierte los cambios pero a la version mas reciente que tengas en el repositorio.
+
 4. git commit -> toma una fotografia del archivo el cual se guardara en la nube, tendra un id identificador que se podra ver cada commit que se realize.
 5. git checkout --. ->en caso se haya eliminado o borrado los archivos, el comando hace que todos los archivos que se encuentren en el repositorio van a ser restaurados a como se encontraban en el ultimo commit.
 6. git log -> sirve para ver todo el listado los commits en el cual se podra ver:el autor, la fecha y el codigo id que identifica al commit.
